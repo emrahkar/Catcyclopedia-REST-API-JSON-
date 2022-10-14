@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF08B9FC28F73F810038618E /* CatImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF08B9FB28F73F810038618E /* CatImageView.swift */; };
+		BF08B9FE28F740DC0038618E /* CatRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF08B9FD28F740DC0038618E /* CatRowView.swift */; };
+		BF08BA0028F740EA0038618E /* CatDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF08B9FF28F740EA0038618E /* CatDetailedView.swift */; };
+		BF08BA0428F741740038618E /* NetworkImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF08BA0328F741740038618E /* NetworkImageLoader.swift */; };
+		BF2728A728F81F9C00731925 /* CatImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2728A628F81F9C00731925 /* CatImageViewModel.swift */; };
+		BF53F75D28F9B5A2001000DA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF53F75C28F9B5A2001000DA /* Extensions.swift */; };
+		BF53F75F28F9B809001000DA /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF53F75E28F9B809001000DA /* Launch Screen.storyboard */; };
+		BF53F76128F9BCE4001000DA /* blackCatIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF53F76028F9BCE4001000DA /* blackCatIcon.png */; };
 		BFB2286E28F5858F00315E62 /* CatcyclopediaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB2286D28F5858F00315E62 /* CatcyclopediaApp.swift */; };
 		BFB2287028F5858F00315E62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB2286F28F5858F00315E62 /* ContentView.swift */; };
 		BFB2287228F5859100315E62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB2287128F5859100315E62 /* Assets.xcassets */; };
@@ -15,9 +23,19 @@
 		BFB2288328F58B3200315E62 /* CatImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB2288228F58B3200315E62 /* CatImage.swift */; };
 		BFB2288528F58F0200315E62 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB2288428F58F0200315E62 /* NetworkingService.swift */; };
 		BFB2288728F5928500315E62 /* NetworkingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB2288628F5928500315E62 /* NetworkingError.swift */; };
+		BFBFD8D928F71753008552BC /* CatDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBFD8D828F71753008552BC /* CatDataViewModel.swift */; };
+		BFBFD8DB28F71CED008552BC /* CatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBFD8DA28F71CED008552BC /* CatListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF08B9FB28F73F810038618E /* CatImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatImageView.swift; sourceTree = "<group>"; };
+		BF08B9FD28F740DC0038618E /* CatRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatRowView.swift; sourceTree = "<group>"; };
+		BF08B9FF28F740EA0038618E /* CatDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatDetailedView.swift; sourceTree = "<group>"; };
+		BF08BA0328F741740038618E /* NetworkImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImageLoader.swift; sourceTree = "<group>"; };
+		BF2728A628F81F9C00731925 /* CatImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatImageViewModel.swift; sourceTree = "<group>"; };
+		BF53F75C28F9B5A2001000DA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BF53F75E28F9B809001000DA /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		BF53F76028F9BCE4001000DA /* blackCatIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackCatIcon.png; sourceTree = "<group>"; };
 		BFB2286A28F5858F00315E62 /* Catcyclopedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catcyclopedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB2286D28F5858F00315E62 /* CatcyclopediaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatcyclopediaApp.swift; sourceTree = "<group>"; };
 		BFB2286F28F5858F00315E62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -27,6 +45,8 @@
 		BFB2288228F58B3200315E62 /* CatImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatImage.swift; sourceTree = "<group>"; };
 		BFB2288428F58F0200315E62 /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
 		BFB2288628F5928500315E62 /* NetworkingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingError.swift; sourceTree = "<group>"; };
+		BFBFD8D828F71753008552BC /* CatDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatDataViewModel.swift; sourceTree = "<group>"; };
+		BFBFD8DA28F71CED008552BC /* CatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +60,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF53F75B28F9B55D001000DA /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				BF53F75C28F9B5A2001000DA /* Extensions.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		BFB2286128F5858F00315E62 = {
 			isa = PBXGroup;
 			children = (
@@ -59,14 +87,16 @@
 		BFB2286C28F5858F00315E62 /* Catcyclopedia */ = {
 			isa = PBXGroup;
 			children = (
-				BFB2287F28F5883E00315E62 /* Services */,
-				BFB2287E28F585CE00315E62 /* Networking */,
-				BFB2287C28F585BB00315E62 /* Model */,
-				BFB2287B28F585B300315E62 /* View */,
+				BF53F75B28F9B55D001000DA /* Helper */,
 				BFB2286D28F5858F00315E62 /* CatcyclopediaApp.swift */,
 				BFB2286F28F5858F00315E62 /* ContentView.swift */,
+				BFB2287C28F585BB00315E62 /* Model */,
+				BFB2287B28F585B300315E62 /* View */,
+				BFB2287F28F5883E00315E62 /* ViewModel */,
+				BFB2287E28F585CE00315E62 /* Networking */,
 				BFB2287128F5859100315E62 /* Assets.xcassets */,
 				BFB2287328F5859100315E62 /* Preview Content */,
+				BF53F75E28F9B809001000DA /* Launch Screen.storyboard */,
 			);
 			path = Catcyclopedia;
 			sourceTree = "<group>";
@@ -82,6 +112,10 @@
 		BFB2287B28F585B300315E62 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BFBFD8DA28F71CED008552BC /* CatListView.swift */,
+				BF08B9FB28F73F810038618E /* CatImageView.swift */,
+				BF08B9FD28F740DC0038618E /* CatRowView.swift */,
+				BF08B9FF28F740EA0038618E /* CatDetailedView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -100,15 +134,19 @@
 			children = (
 				BFB2288428F58F0200315E62 /* NetworkingService.swift */,
 				BFB2288628F5928500315E62 /* NetworkingError.swift */,
+				BF08BA0328F741740038618E /* NetworkImageLoader.swift */,
+				BF53F76028F9BCE4001000DA /* blackCatIcon.png */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
 		};
-		BFB2287F28F5883E00315E62 /* Services */ = {
+		BFB2287F28F5883E00315E62 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				BFBFD8D828F71753008552BC /* CatDataViewModel.swift */,
+				BF2728A628F81F9C00731925 /* CatImageViewModel.swift */,
 			);
-			path = Services;
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +207,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF53F76128F9BCE4001000DA /* blackCatIcon.png in Resources */,
+				BF53F75F28F9B809001000DA /* Launch Screen.storyboard in Resources */,
 				BFB2287528F5859100315E62 /* Preview Assets.xcassets in Resources */,
 				BFB2287228F5859100315E62 /* Assets.xcassets in Resources */,
 			);
@@ -182,11 +222,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFB2288328F58B3200315E62 /* CatImage.swift in Sources */,
+				BFBFD8D928F71753008552BC /* CatDataViewModel.swift in Sources */,
+				BF08B9FE28F740DC0038618E /* CatRowView.swift in Sources */,
+				BF08B9FC28F73F810038618E /* CatImageView.swift in Sources */,
+				BF08BA0028F740EA0038618E /* CatDetailedView.swift in Sources */,
 				BFB2287028F5858F00315E62 /* ContentView.swift in Sources */,
+				BFBFD8DB28F71CED008552BC /* CatListView.swift in Sources */,
+				BF2728A728F81F9C00731925 /* CatImageViewModel.swift in Sources */,
+				BF08BA0428F741740038618E /* NetworkImageLoader.swift in Sources */,
 				BFB2286E28F5858F00315E62 /* CatcyclopediaApp.swift in Sources */,
 				BFB2288528F58F0200315E62 /* NetworkingService.swift in Sources */,
 				BFB2288128F58B2500315E62 /* Cat.swift in Sources */,
 				BFB2288728F5928500315E62 /* NetworkingError.swift in Sources */,
+				BF53F75D28F9B5A2001000DA /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Catcyclopedia/Preview Content\"";
@@ -323,6 +372,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -343,6 +393,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Catcyclopedia/Preview Content\"";
@@ -352,6 +403,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
