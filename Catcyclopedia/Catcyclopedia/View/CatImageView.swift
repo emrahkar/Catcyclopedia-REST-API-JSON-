@@ -17,12 +17,12 @@ struct CatImageView: View {
    
 
     var body: some View {
-        VStack{
+        ZStack{
             if let image = catimageViewModel.image {
                 Image(uiImage: image)
                     .resizable()
                     .scaledToFill()
-                    //.frame(width: .infinity, height: .infinity)
+                    //.frame(width: .infinity)
                    
             } else{
                 Image(systemName: "video")
@@ -32,6 +32,11 @@ struct CatImageView: View {
                     .background(Color.gray)
                 
             }
+            
+            LinearGradient(colors:
+                            [.clear, .black.opacity(0.7)],
+                           startPoint: .top,
+                           endPoint: .bottom)
         }
         .frame(width: 300, height: 400)
         .onAppear{

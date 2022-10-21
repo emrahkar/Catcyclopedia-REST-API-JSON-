@@ -46,7 +46,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
-                        <color key="backgroundColor" name="SkyBlue"/>
+                        <color key="backgroundColor" name="DarkBlue2"/>
                         <color key="tintColor" name="SkyBlue"/>
                         <constraints>
                             <constraint firstItem="gwT-3m-vab" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ZpR-fb-ddr"/>
@@ -61,11 +61,14 @@
     </scenes>
     <resources>
         <image name="blackCatIcon.png" width="100" height="100"/>
+        <namedColor name="DarkBlue2">
+            <color red="0.29565484672580189" green="0.36444585560048481" blue="0.41960784313725491" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="PinkLady">
-            <color red="0.92941176470588238" green="0.76078431372549016" blue="0.84705882352941175" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.92900002002716064" green="0.76099997758865356" blue="0.84700000286102295" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="SkyBlue">
-            <color red="0.54117647058823526" green="0.72941176470588232" blue="0.82745098039215681" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.24705882352941178" green="0.75686274509803919" blue="0.78823529411764703" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>

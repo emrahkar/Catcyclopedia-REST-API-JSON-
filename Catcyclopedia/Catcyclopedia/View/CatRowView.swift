@@ -14,7 +14,7 @@ struct CatRowView: View {
     
     var body: some View {
         
-        VStack(spacing: 10){
+        VStack(alignment:.leading, spacing: 10){
             
             CatImageView(urlString: urlString)
                 .padding(.bottom, 2)
@@ -22,25 +22,31 @@ struct CatRowView: View {
                 Text(cat.name)
                     .font(.title)
                     .fontWeight(.bold)
-                    .foregroundColor(Color.MyTheme.customWhite)
+                    .foregroundColor(Color.MyTheme.customWhite.opacity(0.7))
                 Text(cat.temperament)
                     .font(.caption)
-                    .foregroundColor(Color.MyTheme.customWhite)
+                    .foregroundColor(Color.MyTheme.customWhite.opacity(0.7))
                     .multilineTextAlignment(.leading)
             }
-            .padding(.horizontal, 2)
-            
             Spacer()
         }
-        .frame(width: 300, height: 500)
-        .background(Color.MyTheme.skyBlue)
+        .frame(width: 320, height: 500)
+        .background(
+            LinearGradient(colors:
+                            [Color.black,
+                             Color.MyTheme.skyBlue.opacity(0.7)],
+                           startPoint: .top,
+                           endPoint: .bottom)
+        
+        
+        )
         .cornerRadius(20)
        
         .overlay(
             RoundedRectangle(cornerRadius: 20)
-                .stroke(Color.gray, lineWidth: 2)
+                .stroke(Color.clear, lineWidth: 2)
         )
-        .shadow(color: Color.gray, radius: 15, x: 2, y: -2)
+        //.shadow(color: Color.gray, radius: 15, x: 2, y: -2)
 
         
     }

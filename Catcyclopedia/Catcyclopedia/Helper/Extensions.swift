@@ -22,5 +22,13 @@ extension Color {
         static var customWhite: Color {
             return Color("CustomWhite")
         }
+        
+        static var darkBlue: Color {
+            return Color("DarkBlue")
+        }
+        
+        static var darkBlue2: Color {
+            return Color("DarkBlue2")
+        }
     }
 }

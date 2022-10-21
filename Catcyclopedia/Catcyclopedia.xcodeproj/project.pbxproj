@@ -14,7 +14,6 @@
 		BF2728A728F81F9C00731925 /* CatImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2728A628F81F9C00731925 /* CatImageViewModel.swift */; };
 		BF53F75D28F9B5A2001000DA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF53F75C28F9B5A2001000DA /* Extensions.swift */; };
 		BF53F75F28F9B809001000DA /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF53F75E28F9B809001000DA /* Launch Screen.storyboard */; };
-		BF53F76128F9BCE4001000DA /* blackCatIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF53F76028F9BCE4001000DA /* blackCatIcon.png */; };
 		BFB2286E28F5858F00315E62 /* CatcyclopediaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB2286D28F5858F00315E62 /* CatcyclopediaApp.swift */; };
 		BFB2287028F5858F00315E62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB2286F28F5858F00315E62 /* ContentView.swift */; };
 		BFB2287228F5859100315E62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB2287128F5859100315E62 /* Assets.xcassets */; };
@@ -25,6 +24,7 @@
 		BFB2288728F5928500315E62 /* NetworkingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB2288628F5928500315E62 /* NetworkingError.swift */; };
 		BFBFD8D928F71753008552BC /* CatDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBFD8D828F71753008552BC /* CatDataViewModel.swift */; };
 		BFBFD8DB28F71CED008552BC /* CatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBFD8DA28F71CED008552BC /* CatListView.swift */; };
+		BFD8F5DC28FDED7B00A2A301 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD8F5DB28FDED7B00A2A301 /* OnBoardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,6 @@
 		BF2728A628F81F9C00731925 /* CatImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatImageViewModel.swift; sourceTree = "<group>"; };
 		BF53F75C28F9B5A2001000DA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		BF53F75E28F9B809001000DA /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		BF53F76028F9BCE4001000DA /* blackCatIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackCatIcon.png; sourceTree = "<group>"; };
 		BFB2286A28F5858F00315E62 /* Catcyclopedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catcyclopedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB2286D28F5858F00315E62 /* CatcyclopediaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatcyclopediaApp.swift; sourceTree = "<group>"; };
 		BFB2286F28F5858F00315E62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		BFB2288628F5928500315E62 /* NetworkingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingError.swift; sourceTree = "<group>"; };
 		BFBFD8D828F71753008552BC /* CatDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatDataViewModel.swift; sourceTree = "<group>"; };
 		BFBFD8DA28F71CED008552BC /* CatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatListView.swift; sourceTree = "<group>"; };
+		BFD8F5DB28FDED7B00A2A301 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +116,7 @@
 				BF08B9FB28F73F810038618E /* CatImageView.swift */,
 				BF08B9FD28F740DC0038618E /* CatRowView.swift */,
 				BF08B9FF28F740EA0038618E /* CatDetailedView.swift */,
+				BFD8F5DB28FDED7B00A2A301 /* OnBoardingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -133,9 +134,8 @@
 			isa = PBXGroup;
 			children = (
 				BFB2288428F58F0200315E62 /* NetworkingService.swift */,
-				BFB2288628F5928500315E62 /* NetworkingError.swift */,
 				BF08BA0328F741740038618E /* NetworkImageLoader.swift */,
-				BF53F76028F9BCE4001000DA /* blackCatIcon.png */,
+				BFB2288628F5928500315E62 /* NetworkingError.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -207,7 +207,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF53F76128F9BCE4001000DA /* blackCatIcon.png in Resources */,
 				BF53F75F28F9B809001000DA /* Launch Screen.storyboard in Resources */,
 				BFB2287528F5859100315E62 /* Preview Assets.xcassets in Resources */,
 				BFB2287228F5859100315E62 /* Assets.xcassets in Resources */,
@@ -224,6 +223,7 @@
 				BFB2288328F58B3200315E62 /* CatImage.swift in Sources */,
 				BFBFD8D928F71753008552BC /* CatDataViewModel.swift in Sources */,
 				BF08B9FE28F740DC0038618E /* CatRowView.swift in Sources */,
+				BFD8F5DC28FDED7B00A2A301 /* OnBoardingView.swift in Sources */,
 				BF08B9FC28F73F810038618E /* CatImageView.swift in Sources */,
 				BF08BA0028F740EA0038618E /* CatDetailedView.swift in Sources */,
 				BFB2287028F5858F00315E62 /* ContentView.swift in Sources */,
